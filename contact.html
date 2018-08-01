@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact | Your Name</title>
+  <title>Contact | Matt Wycinsky</title>
 
   <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-58Vxhfld+b/l9kgnC3BTqFfoqWobrpZKMIaWTgND+yN43GDm0zBTE+j3BpPQAuTb" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -15,7 +15,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Matt Wycinsky</a>
+        <a class="navbar-brand" href="index.html">Matt Wycinsky</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,37 +28,57 @@
         </div>
       </nav>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
+  <div class="container">
+      <div class="row" style="margin-top:20px;">
+      <div class="col-md-12">
+          <h1>Contact</h1>
+      </div>
+      
+    </div>  
+    </div>
 
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
 
-    </section>
+<!-- new form -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+
+        <form>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="First Last">
+              </div>  
+          
+          
+          <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+              <small id="emailHelp" class="form-text text-muted"></small>
+            </div>
+  
+            <div class="form-group">
+                <label for="exampleInputEmail1">Message</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Great work, good job, you're awesomeness is unmatched in this universe, etc, etc...">
+                <small id="emailHelp" class="form-text text-muted"></small>
+              </div>
+  
+  
+            <button type="submit" class="btn btn-primary">Submit</button>
+  
+  
+          </form>
+
+
+    </div>
 
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
+</div>      
+
+
+<!-- end new form -->
+
+
 </body>
 
 </html>
